@@ -1,0 +1,7 @@
+{
+    movieByName(name:"Hello"){
+        name
+        duration
+        certification
+    }
+}

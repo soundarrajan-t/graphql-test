@@ -1,0 +1,12 @@
+mutation {
+    createMovie (
+        movie: {
+            name: "test12345",
+            description: "test",
+            cast: "test",
+            certification: "",
+            genre: "action/sci-fic",
+            duration: 100
+        }
+    )
+}

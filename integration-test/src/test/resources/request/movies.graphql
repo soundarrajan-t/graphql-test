@@ -1,0 +1,6 @@
+query{
+    movies{
+        name
+        duration
+    }
+}

@@ -1,0 +1,13 @@
+type User{
+    name: String
+    email: String!
+    password: String!
+    role: String
+}
+
+input UserInput{
+    name: String
+    email: String!
+    password: String!
+    role: String
+}

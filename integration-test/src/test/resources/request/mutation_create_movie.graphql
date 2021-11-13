@@ -1,0 +1,3 @@
+mutation{
+    createMovie(movie:{name:"The Rewrite",description:"m",cast:"Hugh Grant",certification:"U",genre:"Comedy/Romance",duration:107})
+}

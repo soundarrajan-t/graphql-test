@@ -1,0 +1,7 @@
+fragment movieData on MovieDTO {
+    name
+    description
+    genre
+    certification
+    cast
+}

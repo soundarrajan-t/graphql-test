@@ -1,0 +1,11 @@
+{
+  "data": {
+    "moviesByGenre": [
+      {
+        "name": "Raatchasan",
+        "genre": "thriller",
+        "duration": 150
+      }
+    ]
+  }
+}

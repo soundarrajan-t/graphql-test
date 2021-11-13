@@ -1,0 +1,16 @@
+type Query {
+    movies: [MovieDTO]
+    movieByName(name:String): MovieDTO
+}
+
+type Mutation {
+    createMovie(movie:MovieInput): String
+    deleteMovie(name:String): String
+    updateMovie(movie:MovieInput): String
+    createUser(user:UserInput):String
+}
+
+type Subscription {
+    movies: [MovieDTO]
+    moviesByGenre(genre:String): [MovieDTO]
+}

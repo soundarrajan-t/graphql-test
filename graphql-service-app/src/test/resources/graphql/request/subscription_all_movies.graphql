@@ -1,0 +1,7 @@
+subscription {
+    movies {
+        name
+        genre
+        duration
+    }
+}

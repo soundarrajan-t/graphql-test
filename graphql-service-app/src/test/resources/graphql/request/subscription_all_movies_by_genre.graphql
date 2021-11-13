@@ -1,0 +1,7 @@
+subscription {
+    moviesByGenre(genre:"thriller") {
+        name
+        genre
+        duration
+    }
+}

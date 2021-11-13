@@ -1,0 +1,18 @@
+{
+  "data": {
+    "movieByName": {
+      "name": "The Avengers",
+      "certification": "U"
+    },
+    "movies": [
+      {
+        "name": "The Avengers",
+        "certification": "U"
+      },
+      {
+        "name": "Cinderella",
+        "certification": "U"
+      }
+    ]
+  }
+}

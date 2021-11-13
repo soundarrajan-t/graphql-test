@@ -1,0 +1,49 @@
+{
+  "data": {
+    "movieByName": {
+      "name": "Harry potter",
+      "description": "Harry Potter is a film series based on the eponymous novels by J. K. Rowling.",
+      "genre": "fantasy",
+      "certification": "U",
+      "cast": "Daniel Radcliffe, Emma Charlotte Duerre Watson"
+    },
+    "movies": [
+      {
+        "name": "The Avengers",
+        "description": "marvel",
+        "genre": "action,sci-fic",
+        "certification": "U",
+        "cast": "Chris Evans",
+        "duration": 180,
+        "rating": 8
+      },
+      {
+        "name": "Harry potter",
+        "description": "Harry Potter is a film series based on the eponymous novels by J. K. Rowling.",
+        "genre": "fantasy",
+        "certification": "U",
+        "cast": "Daniel Radcliffe, Emma Charlotte Duerre Watson",
+        "duration": 200,
+        "rating": 0
+      },
+      {
+        "name": "Chronicles of Narnia",
+        "description": "While playing, Lucy and her siblings find a wardrobe that lands them in a mystical place called Narnia",
+        "genre": " Action, Adventure, Family",
+        "certification": "U",
+        "cast": "Georgie Henley,Anna Popplewell, William Moseley",
+        "duration": 185,
+        "rating": 0
+      },
+      {
+        "name": "Cinderella",
+        "description": "After the untimely death of her father, Ella is troubled by her stepmother and stepsisters. However, her life changes forever after dancing with a charming stranger at the Royal Ball.",
+        "genre": "fantasy",
+        "certification": "U",
+        "cast": "Lily James, Cate Blanchett, Richard Madden\n",
+        "duration": 160,
+        "rating": 6.9
+      }
+    ]
+  }
+}

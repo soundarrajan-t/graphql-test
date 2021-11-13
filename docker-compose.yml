@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  book-my-show-app:
+    container_name: book-my-show
+    restart: always
+    build: .
+    ports:
+      - 80:8080
+    expose:
+      - 8080
+    depends_on:
+      - book-my-show-db
+    networks:
+      book-my-show-network:
+    environment:
+      - MYSQL_DATABASE=${MYSQL__DATABASE}
+      - DB_HOST=${DB__HOST}
+      - DB_PORT=${DB__PORT}
+      - MYSQL_ROOT_USERNAME=${MYSQL__ROOT__USERNAME}
+      - MYSQL_ROOT_PASSWORD=${MYSQL__ROOT__PASSWORD}
+      - OMDB_API=${OMDB__API}
+      - OMDB_URL=${OMDB__URL}
+      - OMDB_TEST_URL=${OMDB__TEST__URL}
+  book-my-show-db:
+    container_name: book-my-show-db
+    image: mysql:5.7
+    restart: always
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    volumes:
+      - book-my-show-db-volume:/var/lib/mysql
+    networks:
+      book-my-show-network:
+    environment:
+      - MYSQL_DATABASE=${MYSQL__DATABASE}
+      - MYSQL_ROOT_PASSWORD=${MYSQL__ROOT__PASSWORD}
+
+volumes:
+  book-my-show-db-volume:
+
+networks:
+  book-my-show-network:
+    driver: bridge

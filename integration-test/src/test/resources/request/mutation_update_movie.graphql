@@ -1,0 +1,3 @@
+mutation{
+    updateMovie(movie:{name:"The Rewrite",description:"Engish Movie",cast:"Rock",certification:"U",genre:"Comedy/Romance",duration:107})
+}

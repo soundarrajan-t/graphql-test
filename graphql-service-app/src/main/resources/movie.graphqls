@@ -1,0 +1,18 @@
+type MovieDTO {
+    name: String
+    description: String
+    genre: String
+    certification: String
+    cast: String
+    duration : Int
+    rating : Float
+}
+
+input MovieInput{
+    name: String
+    description: String
+    cast: String
+    certification: String
+    genre: String
+    duration: Int
+}

@@ -1,0 +1,10 @@
+mutation{
+    createUser(
+        user:{
+            nam:"test_user",
+            email: "test@gmail.com",
+            password: "Test@123",
+            role: "USER"
+        }
+    )
+}

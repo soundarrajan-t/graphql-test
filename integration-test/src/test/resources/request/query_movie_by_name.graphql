@@ -1,0 +1,6 @@
+query {
+    movieByName(name: "Harry potter") {
+        name
+        certification
+    }
+}

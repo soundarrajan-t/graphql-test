@@ -1,0 +1,26 @@
+{
+  "data": {
+    "movieByName": {
+      "name": "Harry potter",
+      "certification": "U"
+    },
+    "movies": [
+      {
+        "name": "The Avengers",
+        "certification": "U"
+      },
+      {
+        "name": "Harry potter",
+        "certification": "U"
+      },
+      {
+        "name": "Chronicles of Narnia",
+        "certification": "U"
+      },
+      {
+        "name": "Cinderella",
+        "certification": "U"
+      }
+    ]
+  }
+}

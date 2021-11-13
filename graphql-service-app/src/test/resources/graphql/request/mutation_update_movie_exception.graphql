@@ -1,0 +1,3 @@
+mutation{
+    updateMovie(movie:{name:"Hello",description:"Hollywood Movie",cast:"John Cena",certification:"U",genre:"Adventures",duration:180})
+}

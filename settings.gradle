@@ -1,0 +1,6 @@
+rootProject.name = 'graphql-service-starter'
+include 'graphql-service-app'
+include 'integration-test'
+include 'performance-test'
+include 'consumer'
+

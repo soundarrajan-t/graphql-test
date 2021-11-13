@@ -1,0 +1,13 @@
+fragment movieData on MovieDTO {
+    name
+    certification
+}
+query {
+    movieByName(name: "The Avengers") {
+        ...movieData
+    }
+    movies {
+        ...movieData
+    }
+}
+

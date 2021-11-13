@@ -1,0 +1,7 @@
+{
+    movieByName(name:"The Avengers"){
+        name
+        duration
+        certification
+    }
+}

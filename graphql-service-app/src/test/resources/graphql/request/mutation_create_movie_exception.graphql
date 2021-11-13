@@ -1,0 +1,3 @@
+mutation{
+    createMovie(movie:{name:"Test Movie",description:"marvel",cast:"Chris Evans",certification:"U",genre:"action/sci-fic",duration:100})
+}

@@ -1,0 +1,11 @@
+query {
+    movieByName(name: "Harry potter") {
+        ... movieData
+    }
+
+    movies {
+        ... movieData
+        duration
+        rating
+    }
+}

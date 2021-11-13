@@ -1,0 +1,11 @@
+{
+  "data": {
+    "movies": [
+      {
+        "name": "test",
+        "genre": "testGenre",
+        "duration": 100
+      }
+    ]
+  }
+}

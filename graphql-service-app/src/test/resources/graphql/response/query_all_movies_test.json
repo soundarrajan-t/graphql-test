@@ -1,0 +1,14 @@
+{
+  "data": {
+    "movies": [
+      {
+        "name": "The Avengers",
+        "duration": 180
+      },
+      {
+        "name": "Cinderella",
+        "duration": 160
+      }
+    ]
+  }
+}

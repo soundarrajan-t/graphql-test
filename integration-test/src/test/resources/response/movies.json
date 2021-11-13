@@ -1,0 +1,22 @@
+{
+  "data": {
+    "movies": [
+      {
+        "name": "The Avengers",
+        "duration": 180
+      },
+      {
+        "name": "Harry potter",
+        "duration": 200
+      },
+      {
+        "name": "Chronicles of Narnia",
+        "duration": 185
+      },
+      {
+        "name": "Cinderella",
+        "duration": 160
+      }
+    ]
+  }
+}
